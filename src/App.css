@@ -1,0 +1,45 @@
+.app {
+  display: flex;
+}
+
+.label {
+  display: flex;
+  justify-content: center;
+  background: var(--color3);
+  border: 2px solid black;
+  font-weight: bolder;
+}
+
+.my-btn, button {
+  margin: 0.5em;
+  padding: 0.5em;
+  font-size: 15px;
+  background: var(--color3);
+  color: var(--color1);
+  border-radius: 5px;
+  box-shadow: 4px 4px 6px black;
+  border: 0;
+}
+
+.my-btn:hover, button:hover {
+  background: var(--color4);
+}
+
+.my-btn:active, button:active {
+  background-color: var(--color5);
+  box-shadow: 0 5px black;
+  transform: translateY(4px);
+}
+
+.disabled {
+  background: lightgray;
+  pointer-events: none;
+}
+
+/* .disabled:active {
+  background: lightgray;
+}
+
+.disabled:hover {
+  background: lightgray;
+} */

@@ -1,0 +1,12 @@
+.imgBox {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.imgBox img {
+    width: 80%;
+}
+
+.imgBox button {
+    width: 5%;
+}

@@ -1,0 +1,15 @@
+.HeaderBar {
+    background-image: url(./img/code-wallpaper-10.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 2px solid black;
+}
+
+.meandkendal {
+    margin: 1em;
+    width: 10em;
+
+    border-radius: 50%;
+    border: 2px solid black;
+    background: var(--color5);
+}

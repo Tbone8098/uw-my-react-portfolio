@@ -1,0 +1,15 @@
+.educationImg {
+    width: 200px;
+}
+
+.eduInfoContainer {
+    margin-top: 1em;
+    padding: 1em;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+
+    background: white;
+    border: 2px solid black;
+}

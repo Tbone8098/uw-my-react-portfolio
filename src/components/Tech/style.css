@@ -1,0 +1,11 @@
+
+.tech-box {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding: 1em;
+}
+
+.tech_icon {
+    width: 45px;
+}
